@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>YOLO Object Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Upload an Image for YOLO Detection</h1>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file-input" class="custom-file-upload">
+          Choose File
+        </label>
+        <input type="file" name="file" id="file-input" accept="image/*">
+        <button type="submit">
+          Upload
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

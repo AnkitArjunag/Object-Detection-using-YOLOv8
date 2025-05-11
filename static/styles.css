@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(0deg, rgb(120, 47, 255) 0%, rgb(185, 132, 255) 100%);
+    border: none;
+    border-radius: 20em;
+    box-shadow: 0 0.7em 1.5em -0.5em rgb(184, 146, 255);
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.custom-file-upload:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em rgb(149, 91, 255);
+}
+
+.custom-file-upload:active {
+    box-shadow: 0 0.3em 1em -0.5em rgb(160, 109, 255);
+}
+
+button {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background: linear-gradient(0deg, rgb(120, 47, 255) 0%, rgb(185, 132, 255) 100%);
+    border: none;
+    border-radius: 20em;
+    box-shadow: 0 0.7em 1.5em -0.5em rgb(184, 146, 255);
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em rgb(149, 91, 255);
+}
+
+button:active {
+    box-shadow: 0 0.3em 1em -0.5em rgb(160, 109, 255);
+}

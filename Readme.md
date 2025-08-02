@@ -65,10 +65,10 @@ yolo task=detect mode=train model=yolov8n.pt data=car_dataset.yaml epochs=50 img
 ## 🖼️ Sample Output
 
 ### 🧠 Pre-trained Model
-![Pre-trained model](images/Trained_model.png)
+![Pre-trained model](Trained_model.png)
 
 ### 🚗 Custom Trained Model
-![Trained model](images/Object_Detect.png)
+![Trained model](Object_Detect.png)
 ---
 
 ## 📊 Results

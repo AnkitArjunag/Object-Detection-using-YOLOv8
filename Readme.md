@@ -21,21 +21,6 @@ A computer vision project that leverages the power of **YOLOv8 (You Only Look On
 * **Libraries**: OpenCV, PyTorch, Ultralytics, Matplotlib
 * **Interface (optional)**: HTML, CSS, JavaScript (for frontend)
 
----
-
-## 📂 Project Structure
-
-```
-Object-Detection-using-YOLOv8/
-├── dataset/               # Custom training dataset
-├── runs/                  # YOLOv8 output files
-├── yolov8-custom/         # Custom-trained weights and config
-├── test_images/           # Images used for testing
-├── yolov8_inference.py    # Script for inference using YOLOv8
-├── yolov8_train.py        # Script to train on custom data
-├── requirements.txt
-└── README.md
-```
 
 ---
 
@@ -79,14 +64,11 @@ yolo task=detect mode=train model=yolov8n.pt data=car_dataset.yaml epochs=50 img
 
 ## 🖼️ Sample Output
 
-```markdown
-![Pre-trained model](Trained_model.png)
-```
+### 🧠 Pre-trained Model
+![Pre-trained model](images/Trained_model.png)
 
-```markdown
-![Trained model](Object_Detect.png)
-```
-
+### 🚗 Custom Trained Model
+![Trained model](images/Object_Detect.png)
 ---
 
 ## 📊 Results

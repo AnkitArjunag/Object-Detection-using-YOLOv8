@@ -19,7 +19,7 @@ A computer vision project that leverages the power of **YOLOv8 (You Only Look On
 * **Framework**: [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 * **Language**: Python
 * **Libraries**: OpenCV, PyTorch, Ultralytics, Matplotlib
-* **Interface (optional)**: HTML, CSS, JavaScript (for frontend)
+* **Interface**: HTML, CSS, JavaScript (for frontend)
 
 
 ---
